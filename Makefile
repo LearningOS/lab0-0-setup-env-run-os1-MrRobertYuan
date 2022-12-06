@@ -177,7 +177,7 @@ ubuntu_local_setenv:
 	qemu-system-riscv64 --version
 	qemu-riscv64 --version
 	curl https://sh.rustup.rs -sSf | sh -s -- -y
-	source ${HOME}/.cargo/env
+#	source ${HOME}/.cargo/env
 	rustc --version
 
 # for github codespaces ubuntu with zsh SHELL, need root for sudo
